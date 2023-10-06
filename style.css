@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+#header {
+    background: url(/images/desktop/image-hero.jpg) center;
+    background-size: cover;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    height: 690px;
+}
+
+.contanier-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itens {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    font-family: 'Alata', sans-serif;
+    width: 430px;
+    justify-content: space-between;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.itens a,
+.itens-footer a {
+    color: #fff;
+}
+
+.itens a:hover,
+.itens-footer a:hover
+{
+    border-bottom: 1.5px solid #fff;
+}
+
+.logo, .logo-footer {
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.text-header {
+    margin-top: 10%;
+    border: 2px solid #fff;
+    width: 450px;
+    height: 250px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    word-wrap: break-word;
+    font-size: 80px;
+    font-weight: 300;
+}
+
+#segund-page {
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-rv {
+    width: 700px;
+}
+
+.contanier-mensagem {
+    position: absolute;
+    top: 150%;
+    left: 60%;
+    background-color: #fff;
+    width: 470px;
+    height: 320px;
+    font-family: 'Josefin Sans', sans-serif;
+    word-wrap: break-word;
+    font-weight: 300;
+    padding: 4rem 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contanier-mensagem .title-mensagem {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+.header-projets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7rem;
+}
+
+.creations {
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.btn {
+    border: 1px solid #000;
+    font-family: 'Josefin Sans', sans-serif;
+    width: 150px;
+    height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.contanier-cards {
+   display: grid;
+   justify-content: center;
+   gap: 10px;
+   grid-template-columns: auto auto auto auto;
+}
+
+.card {
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    margin: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 40px;
+    font-weight: 300;
+    display: flex;
+    align-items: end;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.contanier-cards div:hover {
+    transition: 0.4s;
+    opacity: 0.4;
+}
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    height: 100%;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10%;
+}
+
+.logo-footer {
+    font-size: 20px;
+}
+
+.itens-footer {
+    display: flex;
+    padding: 20px 0;
+    gap: 20px;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+}
+
+.sociais {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.sociais img {
+    transition: 0.3s;
+}
+
+.copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 55%);
+}
+
+.attribution {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Alata', sans-serif;
+}
+
+.sociais img:hover {
+    opacity: 0.5;
+}
